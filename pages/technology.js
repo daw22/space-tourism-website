@@ -129,7 +129,10 @@ const Technology = ({ data }) => {
                     </DetailsContainer>
                 </BodyLeft>
                 <BodyRight>
-                    <Image imageSrc={technologyData[pickedTechnology].images.portrait}/>
+                    <Image 
+                    imageSrc={technologyData[pickedTechnology].images.portrait}
+                    alt={technologyData[pickedTechnology].name}
+                    />
                 </BodyRight>
             </BodyContainer>
         </Wrapper>

@@ -114,7 +114,9 @@ const Crew = ({ data }) => {
                 </BodyLeft>
                 <BodyRight>
                     <ImageContainer>
-                        <Image imageSrc={crewData[pickedCrewMember].images.png} />
+                        <Image 
+                        imageSrc={crewData[pickedCrewMember].images.png}
+                        alt={crewData[pickedCrewMember].name} />
                     </ImageContainer>
                 </BodyRight>
             </BodyContainer>  

@@ -120,7 +120,10 @@ const Destination = ({ data }) => {
                         <TitleNumber>01</TitleNumber>
                         pick your destiantion
                     </Title>
-                    <Image ImagePath={destinationData[pickedDestiantion].images.png}/>
+                    <Image 
+                    ImagePath={destinationData[pickedDestiantion].images.png}
+                    alt={destinationData[pickedDestiantion].name}
+                    />
                 </BodyLeft>
                 <BodyRight>
                     <DestinationsNav>
